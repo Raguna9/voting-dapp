@@ -13,7 +13,7 @@ contract Voting { //membuat contract
     mapping(address=>bool) public paraPemilih;
     //key address untuk mendapatkan alamat akun di jaringan local ethereum
     //value bool untuk mengembalikan nilai boolean berdasarkan key address 
-    //(berfungsi untuk cek alamat apakah sudah voting atau belum)
+    //(berfungsi untuk mendapat alamat pemilih dan cek alamat apakah sudah voting atau belum)
 
     //membuat pointer untuk paraKandidat dengan key uint dan value Kandidat dari struktur Kandidat
     mapping(uint=>Kandidat) public paraKandidat;
